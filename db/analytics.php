@@ -32,6 +32,7 @@ $models = [
             '\local_testanalytics\analytics\indicator\set_setting',
         ],
         'timesplitting' => '\core\analytics\time_splitting\single_range',
+        'enabled' => true,
     ],
     [
         'target' => '\local_testanalytics\analytics\target\discrete_example',
@@ -39,6 +40,7 @@ $models = [
             '\local_testanalytics\analytics\indicator\set_setting',
         ],
         'timesplitting' => '\core\analytics\time_splitting\single_range',
+        'enabled' => true,
     ],
     [
         'target' => '\local_testanalytics\analytics\target\binary_example',
@@ -46,6 +48,7 @@ $models = [
             '\local_testanalytics\analytics\indicator\set_setting',
         ],
         'timesplitting' => '\core\analytics\time_splitting\single_range',
+        'enabled' => true,
     ],
     [
         'target' => '\local_testanalytics\analytics\target\undead_users',
@@ -54,6 +57,7 @@ $models = [
             '\local_testanalytics\analytics\indicator\user_activity',
         ],
         'timesplitting' => '\core\analytics\time_splitting\single_range',
+        'enabled' => false,
     ],
     [
         'target' => '\local_testanalytics\analytics\target\useless_categories',
@@ -61,6 +65,7 @@ $models = [
             '\local_testanalytics\analytics\indicator\category_empty',
         ],
         'timesplitting' => '\core\analytics\time_splitting\single_range',
+        'enabled' => false,
     ],
     [
         'target' => '\local_testanalytics\analytics\target\without_picture',
